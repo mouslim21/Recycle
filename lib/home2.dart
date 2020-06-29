@@ -27,7 +27,7 @@ class OnboardingExample extends StatelessWidget {
     PageData(
         pagename: "/client_home",
         image: "images/client.png",
-      title: "CLIENT",
+        title: "Got things to recycle?",
       bgColor: Color(0xff4A9475),
       textColor: Colors.white,
       bouton: Colors.white
@@ -35,7 +35,7 @@ class OnboardingExample extends StatelessWidget {
     PageData(
         image: "images/vendeur.png",
       pagename: "/myhome",
-      title: "COLLECTOR",
+      title: "Are you collector?",
       bgColor:Color(0xff00b76c),
       textColor: Colors.white,
       bouton: Colors.white
@@ -114,7 +114,7 @@ class OnboardingExample extends StatelessWidget {
                               )
                             ),
                             child: Center(
-                              child: Text("DEMMARER",style:
+                              child: Text("Start",style:
                               TextStyle(fontSize:MediaQuery.of(context).size.width*0.06,color:Colors.white ),),
                             ),
                           ),
@@ -122,7 +122,7 @@ class OnboardingExample extends StatelessWidget {
                       ),
                       Expanded(
                         child: Center(
-                          child: Text("Changer l'adhésion",
+                          child: Text("Change profil",
                           style:GoogleFonts.acme(
                             color: page.textColor,
                             fontSize: MediaQuery.of(context).size.width*0.09,
@@ -174,7 +174,7 @@ class PageCard extends StatelessWidget {
       page.title,
       style:GoogleFonts.acme(
         color: page.textColor,
-        fontSize:MediaQuery.of(context).size.width*0.1,
+        fontSize:MediaQuery.of(context).size.width*0.09,
         fontWeight: FontWeight.w600,
         letterSpacing: 0.0,
       ),
