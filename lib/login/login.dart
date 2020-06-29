@@ -136,7 +136,7 @@ class _loginState extends State<login> {
                                   iconedButtons: {
                                     ButtonState.idle:
                                     IconedButton(
-                                      text: "Se connecter",
+                                      text: "Sign in",
                                       icon: Icon(Icons.send,color: Color(0xff00b76c),size: MediaQuery.of(context).size.width*0.05),
                                       color: color,
                                     ),
@@ -146,12 +146,12 @@ class _loginState extends State<login> {
                                         color: Colors.deepPurple.shade700),
                                     ButtonState.fail:
                                     IconedButton(
-                                        text: "échoué".toUpperCase(),
+                                        text: "Failled".toUpperCase(),
                                         icon: Icon(Icons.cancel,color: Colors.white,size: MediaQuery.of(context).size.width*0.05,),
                                         color: Colors.red.shade300),
                                     ButtonState.success:
                                     IconedButton(
-                                        text: "Succés".toUpperCase(),
+                                        text: "Success".toUpperCase(),
                                         icon: Icon(Icons.check_circle,color: Colors.white,size: MediaQuery.of(context).size.width*0.05,),
                                         color: color)
                                   },
@@ -195,7 +195,7 @@ class _loginState extends State<login> {
 //                                  ),
 //                                  borderRadius: BorderRadius.circular(15)
 //                              ),
-                                    child: Text("S'inscrire", style: TextStyle(color: Colors.red.shade400,
+                                    child: Text("Sign Up", style: TextStyle(color: Colors.red.shade400,
                                         textBaseline: TextBaseline.alphabetic,
                                         decoration: TextDecoration.underline,
                                         fontSize: MediaQuery.of(context).size.width*0.05
