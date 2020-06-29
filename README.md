@@ -1,15 +1,16 @@
-# Recycle 🍃 ♻️ 🚮 
- 
-Recycle is a flutter app that facilitate the exchange between people and collectors by locating near collectors for people, and for collectors by locating people's added items .
-So together we can reduce , reuse , recycle ! 
+# recycle
 
-## Tools
+A new Flutter project.
 
-* Flutter SDK 
-* Firebase 🔥
-* Google Maps API 🗺️
+## Getting Started
 
-## Build by :
- ### [#Hack20](https://flutterhackathon.com/#/) Team : *Code for fun*
- ### Theme : Save the Planet 🌎
- ### Youtube demo : [▶️](https://www.youtube.com/watch?v=K5mCEHsZf1w&feature=youtu.be)
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
